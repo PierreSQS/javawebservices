@@ -38,11 +38,11 @@
         </executions>
 
         <configuration>
-          <schemaDirectory>${project.basedir}/src/main/xsd</schemaDirectory>
+          <schemaDirectory>${project.basedir}/src/main/resources/xsd</schemaDirectory>
           <schemaIncludes>
             <include>Patient.xsd</include>
           </schemaIncludes>
-          <bindingDirectory>${project.basedir}/src/main/xsd</bindingDirectory>
+          <bindingDirectory>${project.basedir}/src/main/resources/xsd</bindingDirectory>
           <bindingIncludes>
             <include>global.xjb</include>
           </bindingIncludes>
