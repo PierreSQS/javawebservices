@@ -1,7 +1,7 @@
 package com.bharath.ws.soap;
 
-import javax.jws.WebMethod;
-import javax.jws.WebService;
+import jakarta.jws.WebMethod;
+import jakarta.jws.WebService;
 
 import org.apache.cxf.feature.Features;
 
